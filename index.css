@@ -15,8 +15,12 @@
       font-family: cursive;
     }
     .profilePicture{
+      background-image: url("./imageHolder/Screen Shot 2019-01-22 at 6.33.17 PM.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
       width: 173px;
-      height: 217px;
+      height: 188px;
       border: 1px solid #ADC0CA;
       border-radius: 50%;
     }
@@ -82,7 +86,7 @@
     }
     .footerHolder{
       background-color: #00072D;
-      height: 20vh;
+      min-height: 24vh;
     }
     .quoteHolder{
       display: flex;
@@ -114,12 +118,17 @@
         font-family: cursive;
       }
       .profilePicture{
+        background-image: url("./imageHolder/Screen Shot 2019-01-22 at 6.33.17 PM.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
         width: 146px;
-        height: 185px;
+        height: 159px;
         border: 1px solid #ADC0CA;
         border-radius: 50%;
         margin-left: 68px;
         margin-right: 16px;
+
       }
       .holder{
         display: flex;
@@ -198,11 +207,16 @@
 @media only screen and (min-width : 992px){
 
 .profilePicture{
+  background-image: url("./imageHolder/Screen Shot 2019-01-22 at 6.33.17 PM.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 173px;
-  height: 217px;
+  height: 187px;
   border: 1px solid #ADC0CA;
   border-radius: 50%;
   margin-bottom: 5px;
+  
 }
 .holder{
   display: flex;
@@ -316,11 +330,16 @@
 
 @media only screen and (min-width : 1200px) {
   .profilePicture{
+    background-image: url("./imageHolder/Screen Shot 2019-01-22 at 6.33.17 PM.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 173px;
-    height: 217px;
+    height: 188px;
     border: 1px solid #ADC0CA;
     border-radius: 50%;
     margin-bottom: 5px;
+
   }
   .holder{
     display: flex;
