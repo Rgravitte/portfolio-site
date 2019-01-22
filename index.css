@@ -11,6 +11,9 @@
     border-radius: 20px;
     max-height: 368px;
     }
+    .aboutRoss h3{
+      font-family: cursive;
+    }
     .profilePicture{
       width: 173px;
       height: 217px;
@@ -50,20 +53,31 @@
       flex-direction: column;
       /* justify-content: center; */
       align-items: center;
+      width: 100vw;
     }
     .oneProject > p{
       padding: 5px;
       font-size: 13px;
-      max-width: 59vw;
+      max-width: 70vw;
     }
     .projectsHolder{
       background-color: #ADC0CA;
-      min-height: 100vh;
+      min-height: 78vh;
     }
     .projectImage{
       width: 200px;
       /* margin-bottom: 25px; */
       padding-top: 1vh;
+    }
+    .headAndPar{
+      width: 41vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .centerLongText{
+      text-align: center;
     }
   }
   @media only screen and (min-width : 768px) {
@@ -76,12 +90,18 @@
       color: #DAD8C1;
       font-size: 13px;
       border-radius: 20px;
+      margin-left: 29px;
+      }
+      .aboutRoss h3{
+        font-family: cursive;
       }
       .profilePicture{
-        width: 173px;
-        height: 217px;
+        width: 146px;
+        height: 185px;
         border: 1px solid #ADC0CA;
         border-radius: 50%;
+        margin-left: 68px;
+        margin-right: 16px;
       }
       .holder{
         display: flex;
@@ -101,7 +121,7 @@
         background-size: contain;
         border: 3px solid #ADC0CA;
         /* margin-bottom: 1vh; */
-        /* height: 96vh; */
+        height: 38vh;
       }
       .contactImg{
         width: 25px;
@@ -128,6 +148,16 @@
         padding-top: 1vh;
         /* margin-bottom: 25px; */
       }
+      .headAndPar{
+        width: 24vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .centerLongText{
+        text-align: center;
+      }
     }
 @media only screen and (min-width : 992px){
 
@@ -140,7 +170,7 @@
 }
 .holder{
   display: flex;
-  max-height: 35vh;
+  height: 38vh;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -157,7 +187,7 @@
   background-size: contain;
   border: 3px solid #ADC0CA;
   /* margin: 0 auto; */
-  max-height: 47vh;
+  height: 36vh;
 }
 .info > h1{
   margin-bottom: 5vh;
@@ -181,17 +211,11 @@
   align-items: center;
   color: #DAD8C1;
   font-size: 13px;
-  padding: 34px;
-  border-radius: 20px;
 }
-.aboutRoss > ul > li{
-  list-style-type: none;
-  margin-top: 5px;
-}
+
 .aboutRoss > ul{
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 .aboutMeHolder{
   display: flex;
@@ -201,12 +225,14 @@
 .aboutRoss h3{
   font-family: cursive;
 }
-.oneProject{
+.oneProject {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
-  margin-top: 6vh;
+  /* margin-top: 6vh; */
+  height: 61vh;
+  margin-bottom: 11vw;
 }
 .oneProject > p{
   padding: 5px;
@@ -220,6 +246,18 @@
   width: 200px;
   margin-bottom: 25px;
   padding-top: 1vh;
+}
+.headAndPar{
+  width: 21vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vw;
+}
+.centerLongText{
+  text-align: center;
+  margin-top: 49px;
 }
 }
 
@@ -250,7 +288,7 @@
     background-size: contain;
     border: 3px solid #ADC0CA;
     /* margin: 0 auto; */
-    max-height: 47vh;
+    height: 43vh;
   }
   .info > h1{
     margin-bottom: 5vh;
@@ -278,7 +316,6 @@
     border-radius: 20px;
   }
   .aboutRoss > ul > li{
-    list-style-type: none;
     margin-top: 5px;
   }
   .aboutRoss > ul{
@@ -299,9 +336,11 @@
   .oneProject{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;;
     align-items: center;
-        margin-top: 6vh;
+    margin-top: 2vh;
+    height: 55vh;
+    margin-bottom: 6vw;
   }
   .oneProject > p{
     padding: 5px;
@@ -315,5 +354,17 @@
     width: 200px;
     margin-bottom: 25px;
     padding-top: 1vh;
+  }
+  .headAndPar{
+    max-width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+  }
+  .centerLongText{
+    text-align: center;
+    margin-top: 0;
   }
   }
