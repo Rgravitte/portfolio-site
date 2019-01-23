@@ -56,12 +56,11 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    width: 100vw;
   }
   .oneProject > p{
     padding: 5px;
     font-size: 13px;
-    max-width: 70vw;
+    width: 75vw
   }
   .projectsHolder{
     background-color: #ADC0CA;
@@ -73,15 +72,14 @@
     padding-top: 1vh;
   }
   .headAndPar{
-    width: 41vw;
     display: flex;
+    width: 85vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .centerLongText{
     text-align: center;
-    width: 44vw;
   }
   .footerHolder{
     background-color: #00072D;
@@ -158,7 +156,6 @@
       flex-direction: column;
       /* justify-content: center; */
       align-items: center;
-      width: 100vw;
     }
     .oneProject > p{
       padding: 5px;
